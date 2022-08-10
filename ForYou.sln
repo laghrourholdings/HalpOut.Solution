@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelligenceService", "..\I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayService", "..\GatewayService\src\GatewayService\GatewayService.csproj", "{A7355EA6-BBF3-4199-855B-B28DFAEE1805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "..\ClientServices\WebClient\WebClient.csproj", "{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{A7355EA6-BBF3-4199-855B-B28DFAEE1805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7355EA6-BBF3-4199-855B-B28DFAEE1805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7355EA6-BBF3-4199-855B-B28DFAEE1805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
