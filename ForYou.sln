@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayService", "..\Gatewa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "..\ClientServices\WebClient\WebClient.csproj", "{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.AspNetCore", "..\CommonLibrary\src\CommonLibrary.AspNetCore\CommonLibrary.AspNetCore.csproj", "{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C479C93-30FB-47A5-8EE3-6BA58ECFCA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
