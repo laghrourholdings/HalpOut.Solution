@@ -1,19 +1,4 @@
 # ForYou | Laghrour Holdings
- 
- Please consult the global documentation before looking at the specifics:
- https://github.com/laghrourholdings/ForYou
- 
- You'll find:
-  - Base architecture
-  - Separation of concerns
-  - Interservices communications
-      - Via the EventBus
-      - Via HTTP
-  - Logging Standards
-  - Other essential informations
- 
-
-# ForYou | Laghrour Holdings
 
 ForYou is a new mobile services exchange application. It's summer and you just don't feel like mowing the lawn today, don't you just wish you could be able to  briefly hire a worry-free neighbour to do that chore for you in one click? ForYou is there for you (pun more or less intended).
 
