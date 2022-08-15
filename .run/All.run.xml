@@ -1,0 +1,16 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All" type="CompoundRunConfigurationType">
+    <toRun name="AuthService" type="LaunchSettings" />
+    <toRun name="BillingService" type="LaunchSettings" />
+    <toRun name="GatewayService" type="LaunchSettings" />
+    <toRun name="IntelligenceService" type="LaunchSettings" />
+    <toRun name="InternalService" type="LaunchSettings" />
+    <toRun name="LocalizationService" type="LaunchSettings" />
+    <toRun name="LogService" type="LaunchSettings" />
+    <toRun name="PaymentService" type="LaunchSettings" />
+    <toRun name="TransactionService" type="LaunchSettings" />
+    <toRun name="WebClient" type="LaunchSettings" />
+    <toRun name="RabbitMq" type="docker-deploy" />
+    <method v="2" />
+  </configuration>
+</component>
