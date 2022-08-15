@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "..\ClientServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.AspNetCore", "..\CommonLibrary\src\CommonLibrary.AspNetCore\CommonLibrary.AspNetCore.csproj", "{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.ClientServices", "..\CommonLibrary\src\CommonLibrary.ClientServices\CommonLibrary.ClientServices.csproj", "{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE08A6D8-58E1-42EF-A2F8-EE8CE04FFF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
