@@ -238,7 +238,7 @@ The CommonLibrary also provides the Flurl library and a retry policy in case of 
 ```csharp
 public async Task<IEnumerable<IIObject>> GetAllAsync()
     {
-		//Equivalent of calling: https://localhost:4042/api/v1/Objects
+	//Equivalent of calling: https://localhost:4042/api/v1/Objects
         return await ServicesSettings.InternalServiceDevURL
             .AppendPathSegment("objects")
             .GetJsonAsync<IEnumerable<IIObject>>();
