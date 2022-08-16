@@ -19,7 +19,8 @@ Informations/features/misc :
 	- Partners can have no more for 4 referees.
 - Local business can also send offers and receive efficient and ephemeral workforce.
 - Larger businesses and enteprises have the option to register SSO logins.
-- Every member must present at least one primary identity 
+- Every member must present at least one primary identity that will be checked by a soft-credit check as to not affect credit scores.
+- Members below 18 years old must present parental approval before using any of our service.
 
 ## The Stack
 ForYou is a modern mobile application that uses modern bleeding-edge technologies to bring its members blazing fast performance on Web, IOS and Android. As very high availability is ForYou's central focus, ForYou uses future-proof microservices architecture with asychronous messaging using IBM RabbitMq and Azure Service Bus to prevent solution-wide outages in case of an internal server failure. Server and client services run on the latest long-term support of the Microsoft .Net Core framework; .Net 6, along with C# 10, bring a stable and reliable working foundation to build upon WebApis and Clients. Clients will run on top of the latest UI/UX CLR-Compatible framework with .NET MAUI, bringing modern development patterns such as Dependency Injection and IoC (inversion of control) into mobile applications. 
