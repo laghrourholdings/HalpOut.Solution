@@ -56,12 +56,14 @@ IObject is the central business object interface (BOI) holding the essential inf
 
 ├── IObject
   -> LogHandleId: 0xDEADBEEF
+  
 │   ├── IUser
 
 Can easily become:
 
 ├── IObject
   -> LogHandleId: 0xDEADBEEF
+  
 │   ├── IMedia
 
 Of course this example will not be seen in practice, but it shows that the architecture gives the developer great flexiblity on the domain model.
