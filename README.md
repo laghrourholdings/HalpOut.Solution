@@ -54,7 +54,7 @@ builder.Services.AddCommonLibrary(
 			builder.Logging,
 			logger,
 			yAllowSpecificOrigins);
-	where:
+
 		AddCommonLibrary(
 			this IServiceCollection services,
         		IConfiguration configuration,
