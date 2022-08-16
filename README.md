@@ -69,7 +69,10 @@ public record LogCreateObjectResponse(ServiceBusMessageReponse<IIObject> Payload
 public record CreateObjectResponse(IServiceBusRequest<IIObject> Payload);
 
 /*
-Note: Using IServiceBusMessageResponse<IIObject> instead of IServiceBusRequest<IIObject> in CreateObjectResponse would've been more appropriate if we follow exactly the protocol. For this specific case, it was not necessary for the Gateway Service to have access to the initial requests. 
+Note: 	Using IServiceBusMessageResponse<IIObject> instead of IServiceBusRequest<IIObject>
+	in CreateObjectResponse would've been more appropriate if we follow exactly the protocol.
+	For this specific case, it was not necessary for the Gateway Service 
+	to have access to the initial requests. 
 */
 ```
 
