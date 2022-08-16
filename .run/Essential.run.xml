@@ -3,7 +3,6 @@
     <toRun name="GatewayService" type="LaunchSettings" />
     <toRun name="InternalService" type="LaunchSettings" />
     <toRun name="LogService" type="LaunchSettings" />
-    <toRun name="WebClient" type="LaunchSettings" />
     <toRun name="RabbitMq" type="docker-deploy" />
     <method v="2" />
   </configuration>
