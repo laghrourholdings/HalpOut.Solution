@@ -1,4 +1,4 @@
-# ForYou: Become 
+# ForYou 
 
 ForYou is a new mobile services exchange application. It's summer and you just don't feel like mowing the lawn today, don't you just wish you could be able to  briefly hire a worry-free neighbour to do that chore for you in one click?
 
@@ -15,7 +15,7 @@ Informations/features/misc :
 	- Eliminates the trade commission
 	- Grants web access for comprehensive reports and dashboards
 	- Special access to pre-release and app customization features
-	- Partners can refer friends and receive 25% of the comission Laghror Holdings makes of the referee as long as they remain Partners
+	- Partners can refer friends and receive 50% of the comission Laghror Holdings makes of the referee as long as they remain Partners
 	- Partners can have no more for 4 referees.
 - Local business can also send offers and receive efficient and ephemeral workforce.
 - Larger businesses and enteprises have the option to register SSO logins.
