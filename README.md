@@ -54,13 +54,13 @@ For its deployment into Microsoft Azure, ForYou uses the latest container and CI
 ## Back to Basics
 IObject is the central business object interface (BOI) holding the essential information required by all subsequent BOIs for their normal operations. IObject provides first inheritors access to an object which has property such as CreationDate, Deleted?, Suspended?, LogHandleId, Descriptor. The purpose of IObject is to have a concrete BOI that is not dependant on any service and that can also allow ForYou to maintain business even in the event of an outage (through its Descriptor property). Although managed by the Internal Service, IObject is declared in the CommonLibrary framework and is ready to be used by any referencer and by any service. LogHandleId is the reference to all the log data related to the object, which means that even if a derivative of an IObject had to transform, it can do so without losing access to logs and other core properties:
 
-> ├── IObject
+├── IObject
   -> LogHandleId: 0xDEADBEEF
 │   ├── IUser
 
-Can easily become
+Can easily become:
 
-> ├── IObject
+├── IObject
   -> LogHandleId: 0xDEADBEEF
 │   ├── IMedia
 
