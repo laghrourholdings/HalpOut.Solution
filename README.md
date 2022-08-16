@@ -73,7 +73,7 @@ builder.Services.AddCommonLibrary(
 			builder.Configuration,
 			builder.Logging,
 			logger,
-			yAllowSpecificOrigins);
+			myAllowSpecificOrigins);
 
 		AddCommonLibrary(
 			this IServiceCollection services,
