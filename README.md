@@ -45,6 +45,23 @@ Can easily become
 │   ├── IMedia
 
 Of course this example will not be seen in practice, but it shows that the architecture gives the developer great flexiblity on the domain model.
+The CommonLibrary also provisions the microservices with a one line configurator:
+
+```csharp
+//In startup.cs
+builder.Services.AddCommonLibrary(
+			builder.Configuration,
+			builder.Logging,
+			logger,
+			yAllowSpecificOrigins);
+	where:
+		AddCommonLibrary(
+			this IServiceCollection services,
+        		IConfiguration configuration,
+			ILoggingBuilder logging,
+			LoggerConfiguration loggerConfiguration,
+			string originName)
+```
 
 ## Backend interservices communication
 ### Using the EventBus (asynchronous messaging)
