@@ -11,11 +11,11 @@ Informations/features/misc :
 	- Referer receives 25% off the comission Laghrour Holdings makes on offers, reducing the trade comissison to 7.5%
 	- Referee receives 25% off the comission Laghrour Holdings makes on offers, reducing the trade comissison to 7.5%
 	- Referer can have no more than 2 referees 	 
-- Members have the opportunity to upgrade to a 9.99$/month Partner Membership:
+- Members have the opportunity to upgrade to a 2.99$/month Partner Membership:
 	- Eliminates the trade commission
 	- Grants web access for comprehensive reports and dashboards
 	- Special access to pre-release and app customization features
-	- Partners can refer friends and receive 50% of the comission Laghror Holdings makes of the referee as long as they remain Partners
+	- Partners can refer friends and receive 50% of the comission Laghrour Holdings makes of the referee as long as they remain Partners
 	- Partners can have no more for 4 referees.
 - Local business can also send offers and receive efficient and ephemeral workforce.
 - Larger businesses and enteprises have the option to register SSO logins.
