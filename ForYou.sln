@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.AspNetCore", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.ClientServices", "..\CommonLibrary\src\CommonLibrary.ClientServices\CommonLibrary.ClientServices.csproj", "{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadarClient", "..\ClientServices\RadarClient\RadarClient.csproj", "{03558721-240D-46F0-90DD-A3F6481EE7FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA89EFA4-BA05-41EE-A592-3CE1160A8D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03558721-240D-46F0-90DD-A3F6481EE7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03558721-240D-46F0-90DD-A3F6481EE7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03558721-240D-46F0-90DD-A3F6481EE7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03558721-240D-46F0-90DD-A3F6481EE7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
