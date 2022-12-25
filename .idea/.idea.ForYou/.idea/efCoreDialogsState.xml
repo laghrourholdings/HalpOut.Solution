@@ -4,8 +4,9 @@
     <option name="keyValueStorage">
       <map>
         <entry key="Common:buildConfiguration" value="Debug" />
-        <entry key="Common:dbContext" value="LogService.EFCore.ServiceDbContext" />
+        <entry key="Common:dbContext" value="AuthService.EFCore.UserDbContext" />
         <entry key="Common:noBuild" value="false" />
+        <entry key="Common:outputFolder" value="Migrations" />
         <entry key="Common:useDefaultConnection" value="true" />
       </map>
     </option>
