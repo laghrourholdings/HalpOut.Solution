@@ -1,8 +1,7 @@
 ﻿<component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Essential" type="CompoundRunConfigurationType">
-    <toRun name="AuthService" type="LaunchSettings" />
-    <toRun name="GatewayService" type="LaunchSettings" />
     <toRun name="LogService" type="LaunchSettings" />
+    <toRun name="UserService" type="LaunchSettings" />
     <method v="2" />
   </configuration>
 </component>

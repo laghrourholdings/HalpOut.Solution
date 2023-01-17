@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ff5d6db-5d98-4beb-9c9d-e39648ad75a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/efCoreCommonOptions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/efCoreDialogsState.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.HalpOut/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/efCoreCommonOptions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/efCoreDialogsState.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ForYou/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ForYou.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HalpOut.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f1a8f8ee-a22d-4e28-a214-4531fc8f4c98.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f59be572-f929-4e30-af65-c3659053e2cf.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +30,8 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "postgresql"
+      "postgresql",
+      "redis"
     ]
   }
 }]]></component>
