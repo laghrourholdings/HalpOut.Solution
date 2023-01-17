@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../Clients/Internal/RadarClient" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Libraries/CommonLibrary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Business/LocalizationService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Business/Operations/BillingService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Business/Operations/IntelligenceService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Business/Operations/PaymentService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Business/Operations/TransactionService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Core/GatewayService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Core/InternalService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Core/LogService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Identity/AgentService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Identity/MemberService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Server/Identity/UserService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>
