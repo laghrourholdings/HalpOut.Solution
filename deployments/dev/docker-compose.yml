@@ -1,0 +1,73 @@
+# docker run -d --rm -name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
+
+version: "3.6"
+
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq-management
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=user
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    hostname: rabbitmq-fy
+    restart: unless-stopped
+    networks:
+      - internal
+  npm-app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: npm-app
+    restart: unless-stopped
+    ports:
+      - '80:80' # Public HTTP Port
+      - '443:443' # Public HTTPS Port
+      - '81:81' # Admin Web Port
+      # Add any other Stream port you want to expose
+      # - '21:21' # FTP
+    environment:
+      DB_MYSQL_HOST: "npm-db"
+      DB_MYSQL_PORT: 3306
+      DB_MYSQL_USER: "npm"
+      DB_MYSQL_PASSWORD: "npm"
+      DB_MYSQL_NAME: "npm"
+      # Uncomment the line below if IPv6 is not enabled on your host
+      # DISABLE_IPV6: 'true'
+    volumes:
+      - ./npm/data:/data
+      - ./npm/letsencrypt:/etc/letsencrypt
+    depends_on:
+      - npm-db
+    networks:
+      - external
+      - internal
+
+  npm-db:
+    image: 'mariadb:latest'
+    container_name: npm-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: 'npm'
+      MYSQL_DATABASE: 'npm'
+      MYSQL_USER: 'npm'
+      MYSQL_PASSWORD: 'npm'
+    volumes:
+      - ./npm/data/mysql:/var/lib/mysql
+    networks:
+      - internal
+
+
+volumes:
+  rabbitmqdata:
+    driver: local
+
+networks:
+  external:
+    external: true
+    name: external_network
+  internal:
+    external: true
+    name: internal_debug_network
+
+

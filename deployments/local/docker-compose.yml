@@ -1,0 +1,31 @@
+# docker run -d --rm -name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
+
+version: "3.6"
+
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq-management
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=user
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    hostname: rabbitmq-fy
+    restart: unless-stopped
+    networks:
+      - internal
+volumes:
+  rabbitmqdata:
+    driver: local
+
+networks:
+  external:
+    external: true
+    name: external_network
+  internal:
+    external: true
+    name: internal_network
+
+
