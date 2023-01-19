@@ -1,5 +1,5 @@
 ﻿<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Essential" type="CompoundRunConfigurationType">
+  <configuration default="false" name="Essential-app" type="CompoundRunConfigurationType" folderName="Dev">
     <toRun name="LogService" type="LaunchSettings" />
     <toRun name="UserService" type="LaunchSettings" />
     <method v="2" />
